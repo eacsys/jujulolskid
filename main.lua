@@ -35,9 +35,9 @@ shared.Glory = {
             ['mode'] = '3D', -- 3D/2D
             ['active color'] = Color3.fromRGB(0, 17, 255),
             ['size'] = {
-                ['x'] = 10,
-                ['y'] = 10,
-                ['z'] = 10,
+                ['x'] = 25,
+                ['y'] = 25,
+                ['z'] = 25,
             },
         },
         ['distance check'] = {
@@ -67,9 +67,9 @@ shared.Glory = {
             ['mode'] = '3D', -- 3D/2D
             ['active color'] = Color3.fromRGB(0, 17, 255),
             ['size'] = {
-                ['x'] = 10,
-                ['y'] = 10,
-                ['z'] = 10,
+                ['x'] = 25,
+                ['y'] = 25,
+                ['z'] = 25,
             },
         },
         ['distance check'] = {
@@ -129,12 +129,12 @@ shared.Glory = {
     },
 
     ['super jump'] = {
-        ['enabled'] = false,
+        ['enabled'] = true,
         ['jump power'] = 100,
     },
 
     ['rapid fire'] = {
-        ['enabled'] = false,
+        ['enabled'] = true,
         ['delay'] = 0.01,
         ['specific weapons'] = {
             ['enabled'] = false,
